@@ -83,8 +83,3 @@ addForm.addEventListener('submit', e => {
   itemInput.value = '';
   itemInput.focus();
 });
-
-// Стартовые элементы
-['Пример элемента 1', 'Пример элемента 2'].forEach(text => {
-  itemList.appendChild(createListItem(text));
-});
